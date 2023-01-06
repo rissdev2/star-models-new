@@ -20,8 +20,8 @@ const Contact = () => {
                 back to you as soon as{" "}
                 possible
               </p>
-              <div class="mx-auto mt-16 flex items-start justify-center flex-col">
-                <div class="text-start flex items-center gap-7 lg:w-4/5 w-full">
+              <div className="flex flex-col items-start justify-center mx-auto mt-16">
+                <div className="flex items-center w-full text-start gap-7 lg:w-4/5">
                   <img src="assets/img/location.png" alt="" />
                   <div>
                     <h2 className="text-2xl text-white">
@@ -32,7 +32,7 @@ const Contact = () => {
                     </p>
                   </div>
                 </div>
-                <div class="text-start flex items-center gap-7 lg:w-4/5 w-full mt-10">
+                <div className="flex items-center w-full mt-10 text-start gap-7 lg:w-4/5">
                   <img src="assets/img/message.png" alt="" />
                   <div>
                     <h2 className="text-2xl text-white">Wide offer</h2>
@@ -42,7 +42,7 @@ const Contact = () => {
                     </p>
                   </div>
                 </div>
-                <div class="text-start flex items-center gap-7 lg:w-4/5 w-full mt-10">
+                <div className="flex items-center w-full mt-10 text-start gap-7 lg:w-4/5">
                   <img src="assets/img/tele.png" alt="" />
                   <div>
                     <h2 className="text-2xl text-white">
@@ -59,43 +59,43 @@ const Contact = () => {
             <div className="basis-1/5"></div>
             <div className="basis-1/5"></div>
             <div className="basis-[30%] ">
-              <div class="relative float-label-input">
+              <div className="relative float-label-input">
                 <input
                   type="text"
                   placeholder=" "
-                  class="block bg-transparent text-white w-full focus:outline-none focus:shadow-outline border-b border-[#444444] rounded-0 py-3 px-0 appearance-none leading-normal"
+                  className="block bg-transparent text-white w-full focus:outline-none focus:shadow-outline border-b border-[#444444] rounded-0 py-3 px-0 appearance-none leading-normal"
                 />
-                <label class="absolute top-3 left-0 text-white pointer-events-none transition duration-200 ease-in-outbg-white px-0">
+                <label className="absolute left-0 px-0 text-white transition duration-200 pointer-events-none top-3 ease-in-outbg-white">
                   Name
                 </label>
               </div>
-              <div class="relative float-label-input mt-10">
+              <div className="relative mt-10 float-label-input">
                 <input
                   type="text"
                   placeholder=" "
-                  class="block bg-transparent text-white w-full focus:outline-none focus:shadow-outline border-b border-[#444444] rounded-0 py-3 px-0 appearance-none leading-normal"
+                  className="block bg-transparent text-white w-full focus:outline-none focus:shadow-outline border-b border-[#444444] rounded-0 py-3 px-0 appearance-none leading-normal"
                 />
-                <label class="absolute top-3 left-0 text-white pointer-events-none transition duration-200 ease-in-outbg-white px-0">
+                <label className="absolute left-0 px-0 text-white transition duration-200 pointer-events-none top-3 ease-in-outbg-white">
                 Pursue
                 </label>
               </div>
-              <div class="relative float-label-input mt-10">
+              <div className="relative mt-10 float-label-input">
                 <input
                   type="text"
                   placeholder=" "
-                  class="block bg-transparent text-white w-full focus:outline-none focus:shadow-outline border-b border-[#444444] rounded-0 py-3 px-0 appearance-none leading-normal"
+                  className="block bg-transparent text-white w-full focus:outline-none focus:shadow-outline border-b border-[#444444] rounded-0 py-3 px-0 appearance-none leading-normal"
                 />
-                <label class="absolute top-3 left-0 text-white pointer-events-none transition duration-200 ease-in-outbg-white px-0">
+                <label className="absolute left-0 px-0 text-white transition duration-200 pointer-events-none top-3 ease-in-outbg-white">
                 E-mail address or telephone number
                 </label>
               </div>
-              <div class="relative float-label-input mt-10">
+              <div className="relative mt-10 float-label-input">
                 <textarea
                   type="text"
                   placeholder=" "
-                  class="block bg-transparent h-32 text-white w-full focus:outline-none focus:shadow-outline border-b border-[#444444] rounded-0 py-3 px-0 appearance-none leading-normal"
+                  className="block bg-transparent h-32 text-white w-full focus:outline-none focus:shadow-outline border-b border-[#444444] rounded-0 py-3 px-0 appearance-none leading-normal"
                 />
-                <label class="absolute top-3 left-0 text-white pointer-events-none transition duration-200 ease-in-outbg-white px-0">
+                <label className="absolute left-0 px-0 text-white transition duration-200 pointer-events-none top-3 ease-in-outbg-white">
                 News
                 </label>
               </div>
@@ -103,7 +103,7 @@ const Contact = () => {
               <input type="checkbox" />
               <label className="text-xs font-light text-white ">I agree to the processing of my data for the purpose of establishing contact</label>
               </div>
-              <button class="mt-20 inline-flex items-center text-white bg-tranparent border-0 py-[8px] px-[20px] bg-[#AC7C00] focus:outline-none hover:bg-transparent rounded-0 text-base">Submit</button>
+              <button className="mt-20 inline-flex items-center text-white bg-tranparent border-0 py-[8px] px-[20px] bg-[#AC7C00] focus:outline-none hover:bg-transparent rounded-0 text-base">Submit</button>
             </div>
           </div>
         </div>

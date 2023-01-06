@@ -62,7 +62,7 @@ const Models = () => {
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
-                <button class="inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-lg">
+                <button className="inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-lg">
                   More
                 </button>
               </div>
@@ -90,7 +90,7 @@ const Models = () => {
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
-                <button class="inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-lg">
+                <button className="inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-lg">
                   More
                 </button>
               </div>
@@ -118,7 +118,7 @@ const Models = () => {
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
-                <button class="inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-lg">
+                <button className="inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-lg">
                   More
                 </button>
               </div>
@@ -146,7 +146,7 @@ const Models = () => {
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
-                <button class="inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-lg">
+                <button className="inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-lg">
                   More
                 </button>
               </div>
@@ -174,7 +174,7 @@ const Models = () => {
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
-                <button class="inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-lg">
+                <button className="inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-lg">
                   More
                 </button>
               </div>
