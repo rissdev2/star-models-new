@@ -15,7 +15,7 @@ export default class Testimonials extends Component {
     };
     return (
       <section className='bg-[#0B0A07]'>
-          <div className="container px-5 pt-24 mx-auto">
+          <div className="container px-5 pt-24 mx-auto pb-36">
         <div className="bg-[#AC7C00] px-1 py-1 text-start w-28">
             <p className="text-base text-center text-white">FACTS</p>
           </div>
