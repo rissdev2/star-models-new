@@ -58,7 +58,7 @@ const Models = () => {
             <p className="text-sm text-white">Jhon. D</p>
             <div className="flex ">
               <div className="basis-1/2">
-                <h3 className="text-3xl text-white">Gents</h3>
+                <h3 className="text-2xl text-white">Gents</h3>
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
@@ -86,7 +86,7 @@ const Models = () => {
             <p className="text-sm text-white">Merry james</p>
             <div className="flex ">
               <div className="basis-1/2">
-                <h3 className="text-3xl text-white">Ladies</h3>
+                <h3 className="text-2xl text-white">Ladies</h3>
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
@@ -114,7 +114,7 @@ const Models = () => {
             <p className="text-sm text-white">Merry james</p>
             <div className="flex ">
               <div className="basis-1/2">
-                <h3 className="text-3xl text-white">Ladies</h3>
+                <h3 className="text-2xl text-white">Ladies</h3>
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
@@ -142,7 +142,7 @@ const Models = () => {
             <p className="text-sm text-white">Sam Khan</p>
             <div className="flex ">
               <div className="basis-1/2">
-                <h3 className="text-3xl text-white">Commercial</h3>
+                <h3 className="text-2xl text-white">Commercial</h3>
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
@@ -170,7 +170,7 @@ const Models = () => {
             <p className="text-sm text-white">Sam Khan</p>
             <div className="flex ">
               <div className="basis-1/2">
-                <h3 className="text-3xl text-white">Commercial</h3>
+                <h3 className="text-2xl text-white">Commercial</h3>
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
