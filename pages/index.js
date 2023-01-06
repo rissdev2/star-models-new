@@ -5,9 +5,9 @@ import Models from "../Components/Models";
 import Navigation from "../Components/Navigation";
 import SecondSec from "../Components/Second-sec";
 import Testimonials from "../Components/Testimonials";
-import Head from "next/head";
 import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
+import Head from "next/head";
 
 export default function Home() {
   return (
