@@ -34,7 +34,7 @@ const Models = () => {
             },
             992: {
               slidesPerView: 5,
-              spaceBetween: 60,
+              spaceBetween: 80,
             },
           }}
           pagination={true}
@@ -56,7 +56,7 @@ const Models = () => {
             <br />
             <br />
             <p className="text-sm text-white">Jhon. D</p>
-            <div className="flex ">
+            <div className="flex items-center">
               <div className="basis-1/2">
                 <h3 className="text-2xl text-white">Gents</h3>
               </div>
@@ -84,7 +84,7 @@ const Models = () => {
             <br />
             <br />
             <p className="text-sm text-white">Merry james</p>
-            <div className="flex ">
+            <div className="flex items-center">
               <div className="basis-1/2">
                 <h3 className="text-2xl text-white">Ladies</h3>
               </div>
@@ -112,7 +112,7 @@ const Models = () => {
             <br />
             <br />
             <p className="text-sm text-white">Merry james</p>
-            <div className="flex ">
+            <div className="flex items-center">
               <div className="basis-1/2">
                 <h3 className="text-2xl text-white">Ladies</h3>
               </div>
@@ -140,7 +140,7 @@ const Models = () => {
             <br />
             <br />
             <p className="text-sm text-white">Sam Khan</p>
-            <div className="flex ">
+            <div className="flex items-center">
               <div className="basis-1/2">
                 <h3 className="text-2xl text-white">Commercial</h3>
               </div>
@@ -168,7 +168,7 @@ const Models = () => {
             <br />
             <br />
             <p className="text-sm text-white">Sam Khan</p>
-            <div className="flex ">
+            <div className="flex items-center">
               <div className="basis-1/2">
                 <h3 className="text-2xl text-white">Commercial</h3>
               </div>
