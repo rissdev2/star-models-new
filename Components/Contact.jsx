@@ -15,7 +15,7 @@ const Contact = () => {
               <h1 className="text-[70px] font-thin uppercase cervino-thin title-font text-start text-white mb-5">
                 CONTACT
               </h1>
-              <p className="text-base text-white font-lato leading-[42px]">
+              <p className="text-xl lg:text-2xl text-white lato-regular leading-normal lg:leading-[42px]">
                 Interest in collaboration? Questions? Write to us, we will get
                 back to you as soon as{" "}
                 possible
@@ -27,7 +27,7 @@ const Contact = () => {
                     <h2 className="text-2xl text-white font-lato">
                     Address
                     </h2>
-                    <p className="text-base font-thin text-white font-lato">
+                    <p className="text-base font-thin text-white lato-regular">
                       Your concerns and problems are in good hands with us.
                     </p>
                   </div>
@@ -36,7 +36,7 @@ const Contact = () => {
                   <img src="assets/img/message.png" alt="" />
                   <div>
                     <h2 className="text-2xl text-white font-lato">E-mail</h2>
-                    <p className="text-base font-thin text-white font-lato">
+                    <p className="text-base font-thin text-white lato-regular">
                     Mail@Email.com.
                     </p>
                   </div>
@@ -47,7 +47,7 @@ const Contact = () => {
                     <h2 className="text-2xl text-white font-lato">
                     Telephone
                     </h2>
-                    <p className="text-base font-thin text-white font-lato">
+                    <p className="text-base font-thin text-white lato-regular">
                     ( +49 ) 211 865610
                     </p>
                   </div>

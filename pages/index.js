@@ -26,7 +26,7 @@ export default function Home() {
             href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
           />
         </Head>
-        <div className="h-[100vh] md:h-[42vh] lg:h-[100vh] hero-sec">
+        <div className="hero-sec">
           <Navigation />
           <Hero />
         </div>

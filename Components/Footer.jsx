@@ -5,7 +5,7 @@ const Footer = () => {
         <>
           <section className="text-white bg-[#0B0A07] body-font">
   <div className="container px-0 py-0 mx-auto">
-    <div className="flex flex-col flex-wrap justify-center -mx-4 -mt-4 -mb-10 space-y-6 md:flex-row sm:-m-4 md:space-y-0">
+    <div className="flex flex-col flex-wrap justify-center -mt-4 -mb-10 space-y-6 md:flex-row sm:-m-4 md:space-y-0">
       <div className="flex justify-center md:p-4 md:justify-start md:w-1/3">
         <p className='text-base text-white'>© 2022 <b>Star Model</b> </p>
       </div>
