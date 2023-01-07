@@ -3,19 +3,19 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <section className="bg-[#080600] pb-20">
+      <section className="bg-[#080600] pb-20" id="contct">
         <div className="container px-5 pt-24 mx-auto">
-          <div className="flex">
+          <div className="flex flex-col lg:flex-row">
             <div className="basis1/2">
               <div className="bg-[#AC7C00] px-2 py-1 text-start w-52">
-                <p className="text-sm text-center text-white">
+                <p className="text-base text-center text-white cervino-med">
                   DO YOU HAVE QUESTIONS?
                 </p>
               </div>
-              <h1 className="text-[60px] font-thin uppercase title-font text-start text-white mb-5">
+              <h1 className="text-[70px] font-thin uppercase cervino-thin title-font text-start text-white mb-5">
                 CONTACT
               </h1>
-              <p className="text-base text-white leading-[42px]">
+              <p className="text-base text-white font-lato leading-[42px]">
                 Interest in collaboration? Questions? Write to us, we will get
                 back to you as soon as{" "}
                 possible
@@ -24,10 +24,10 @@ const Contact = () => {
                 <div className="flex items-center w-full text-start gap-7 lg:w-4/5">
                   <img src="assets/img/location.png" alt="" />
                   <div>
-                    <h2 className="text-2xl text-white">
-                      25 years of experience
+                    <h2 className="text-2xl text-white font-lato">
+                    Address
                     </h2>
-                    <p className="text-lg font-thin text-white">
+                    <p className="text-base font-thin text-white font-lato">
                       Your concerns and problems are in good hands with us.
                     </p>
                   </div>
@@ -35,30 +35,29 @@ const Contact = () => {
                 <div className="flex items-center w-full mt-10 text-start gap-7 lg:w-4/5">
                   <img src="assets/img/message.png" alt="" />
                   <div>
-                    <h2 className="text-2xl text-white">Wide offer</h2>
-                    <p className="text-lg font-thin text-white">
-                      Models for e-commerce, commercials & TV, trade fairs or
-                      showrooms
+                    <h2 className="text-2xl text-white font-lato">E-mail</h2>
+                    <p className="text-base font-thin text-white font-lato">
+                    Mail@Email.com.
                     </p>
                   </div>
                 </div>
                 <div className="flex items-center w-full mt-10 text-start gap-7 lg:w-4/5">
                   <img src="assets/img/tele.png" alt="" />
                   <div>
-                    <h2 className="text-2xl text-white">
-                      Carefree & Satisfied
+                    <h2 className="text-2xl text-white font-lato">
+                    Telephone
                     </h2>
-                    <p className="text-lg font-thin text-white">
-                      We take care of everything that concerns our models.
+                    <p className="text-base font-thin text-white font-lato">
+                    ( +49 ) 211 865610
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             
-            <div className="basis-1/5"></div>
-            <div className="basis-1/5"></div>
-            <div className="basis-[30%] ">
+            <div className="lg:basis-1/5"></div>
+            {/* <div className="basis-1/5"></div> */}
+            <div className="basis-[30%] font-lato mt-20 lg:mt-0">
               <div className="relative float-label-input">
                 <input
                   type="text"
@@ -101,9 +100,9 @@ const Contact = () => {
               </div>
               <div className="flex gap-3 mt-10">  
               <input type="checkbox" />
-              <label className="text-xs font-light text-white ">I agree to the processing of my data for the purpose of establishing contact</label>
+              <label className="text-xs font-light text-white font-lato">I agree to the processing of my data for the purpose of establishing contact</label>
               </div>
-              <button className="mt-20 inline-flex items-center text-white bg-tranparent border-0 py-[8px] px-[20px] bg-[#AC7C00] focus:outline-none hover:bg-transparent rounded-0 text-base">Submit</button>
+              <button className="mt-20 inline-flex items-center text-white bg-tranparent border-0 py-[8px] px-[20px] bg-[#AC7C00] focus:outline-none hover:bg-[#AC7C00] rounded-0 text-base">Submit</button>
             </div>
           </div>
         </div>

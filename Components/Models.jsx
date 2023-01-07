@@ -9,12 +9,12 @@ import { Navigation } from "swiper";
 const Models = () => {
   return (
     <>
-      <section className="bg-[#0B0A07]">
+      <section className="bg-[#0B0A07]" id="models">
       <div className="container px-5 pt-24 mx-auto">
         <div className="bg-[#AC7C00] px-1 py-1 text-center  mx-auto w-36">
-            <p className="text-base text-white ">A FEW OF OURS</p>
+            <p className="text-lg text-white cervino-med">A FEW OF OURS</p>
           </div>
-          <h1 className="text-[60px] font-thin uppercase title-font text-center text-white mb-20">
+          <h1 className="text-[70px] font-thin uppercase title-font text-center cervino-thin text-white mb-20">
            Models
           </h1>
         </div>
@@ -24,7 +24,7 @@ const Models = () => {
           centeredSlides={true}
           autoHeight={true}
           slidesPerView={1}
-          spaceBetween={60}
+          spaceBetween={20}
           navigation={true}
           modules={[Navigation]}
           breakpoints={{
@@ -32,7 +32,16 @@ const Models = () => {
               slidesPerView: 2,
               spaceBetween: 40,
             },
-            992: {
+           
+            1080: {
+              slidesPerView: 3,
+              spaceBetween: 80,
+            },
+            1650: {
+              slidesPerView: 4,
+              spaceBetween: 80,
+            },
+            1700: {
               slidesPerView: 5,
               spaceBetween: 80,
             },
@@ -55,14 +64,14 @@ const Models = () => {
             <br />
             <br />
             <br />
-            <p className="text-sm text-white">Jhon. D</p>
+            <p className="text-sm text-white font-lato">Jhon. D</p>
             <div className="flex items-center">
               <div className="basis-1/2">
-                <h3 className="text-2xl text-white">Gents</h3>
+                <h3 className="text-2xl text-white cervino-med">Gents</h3>
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
-                <button className="inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-lg">
+                <button className="font-lato inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-base">
                   More
                 </button>
               </div>
@@ -83,14 +92,14 @@ const Models = () => {
             <br />
             <br />
             <br />
-            <p className="text-sm text-white">Merry james</p>
+            <p className="text-sm text-white font-lato">Merry james</p>
             <div className="flex items-center">
               <div className="basis-1/2">
-                <h3 className="text-2xl text-white">Ladies</h3>
+                <h3 className="text-2xl text-white cervino-med">Ladies</h3>
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
-                <button className="inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-lg">
+                <button className="font-lato inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-base">
                   More
                 </button>
               </div>
@@ -111,14 +120,14 @@ const Models = () => {
             <br />
             <br />
             <br />
-            <p className="text-sm text-white">Merry james</p>
+            <p className="text-sm text-white font-lato">Merry james</p>
             <div className="flex items-center">
               <div className="basis-1/2">
-                <h3 className="text-2xl text-white">Ladies</h3>
+                <h3 className="text-2xl text-white cervino-med">Ladies</h3>
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
-                <button className="inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-lg">
+                <button className="font-lato inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-base">
                   More
                 </button>
               </div>
@@ -139,14 +148,14 @@ const Models = () => {
             <br />
             <br />
             <br />
-            <p className="text-sm text-white">Sam Khan</p>
+            <p className="text-sm text-white font-lato">Sam Khan</p>
             <div className="flex items-center">
               <div className="basis-1/2">
-                <h3 className="text-2xl text-white">Commercial</h3>
+                <h3 className="text-2xl text-white cervino-med">Commercial</h3>
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
-                <button className="inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-lg">
+                <button className="font-lato inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-base">
                   More
                 </button>
               </div>
@@ -167,14 +176,14 @@ const Models = () => {
             <br />
             <br />
             <br />
-            <p className="text-sm text-white">Sam Khan</p>
+            <p className="text-sm text-white font-lato">Sam Khan</p>
             <div className="flex items-center">
               <div className="basis-1/2">
-                <h3 className="text-2xl text-white">Commercial</h3>
+                <h3 className="text-2xl text-white cervino-med">Commercial</h3>
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
-                <button className="inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-lg">
+                <button className="font-lato inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-base">
                   More
                 </button>
               </div>

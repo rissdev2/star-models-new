@@ -11,15 +11,35 @@ export default class Testimonials extends Component {
       infinite: true,
       speed: 500,
       slidesToShow: 4,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      responsive: [
+        {
+        breakpoint: 760,
+          settings: {
+            slidesToShow: 1,
+          }
+        },
+        {
+        breakpoint: 1080,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 1500,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      ]
     };
     return (
-      <section className='bg-[#0B0A07]'>
+      <section className='bg-[#0B0A07]' id="testimonials">
           <div className="container px-5 pt-24 mx-auto pb-36">
         <div className="bg-[#AC7C00] px-1 py-1 text-start w-28">
-            <p className="text-base text-center text-white">FACTS</p>
+            <p className="text-lg text-center text-white cervino-med">FACTS</p>
           </div>
-          <h1 className="text-[60px] font-thin uppercase title-font text-start text-white mb-20">
+          <h1 className="text-[70px] font-thin cervino-thin uppercase title-font text-start text-white mb-20">
            customer testimonials
           </h1>
       
@@ -33,11 +53,11 @@ export default class Testimonials extends Component {
         <a className="inline-flex items-center">
             <img alt="testimonial" src="assets/img/Avatar.png" className="flex-shrink-0 object-cover object-center w-20 h-20 rounded-full" />
             <span className="flex flex-col flex-grow pl-4">
-              <span className="text-lg font-thin text-white uppercase title-font">Haris Shahid</span>
+              <span className="text-xl text-white uppercase cervino-med font-med title-font ">Haris Shahid</span>
               <span className="text-xs font-thin text-white">Art Director</span>
             </span>
           </a>
-          <h2 className="text-2xl " >It was a great expereince</h2>
+          <h2 className="text-xl lg:text-2xl font-lato " >It was a great expereince</h2>
           <ul className="flex gap-3 mt-3">
             <li><img src="assets/img/star.svg" alt="" /></li>
             <li><img src="assets/img/star.svg" alt="" /></li>
@@ -45,7 +65,7 @@ export default class Testimonials extends Component {
             <li><img src="assets/img/star.svg" alt="" /></li>
             <li><img src="assets/img/star.svg" alt="" /></li>
           </ul>
-          <p className="mt-6 font-light leading-[37px] first-letter:">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+          <p className="mt-6 font-light leading-[37px] font-lato first-letter:">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
          
         </div>
       </div>
@@ -56,11 +76,11 @@ export default class Testimonials extends Component {
         <a className="inline-flex items-center">
             <img alt="testimonial" src="assets/img/Avatar2.png" className="flex-shrink-0 object-cover object-center w-20 h-20 rounded-full" />
             <span className="flex flex-col flex-grow pl-4">
-              <span className="text-lg font-thin text-white uppercase title-font">Haris Shahid</span>
+              <span className="text-xl font-thin text-white uppercase cervino-med title-font">Haris Shahid</span>
               <span className="text-xs font-thin text-white">Art Director</span>
             </span>
           </a>
-          <h2 className="text-2xl " >It was a great expereince</h2>
+          <h2 className="text-xl lg:text-2xl font-lato" >It was a great expereince</h2>
           <ul className="flex gap-3 mt-3">
             <li><img src="assets/img/star.svg" alt="" /></li>
             <li><img src="assets/img/star.svg" alt="" /></li>
@@ -68,7 +88,7 @@ export default class Testimonials extends Component {
             <li><img src="assets/img/star.svg" alt="" /></li>
             <li><img src="assets/img/star.svg" alt="" /></li>
           </ul>
-          <p className="mt-6 font-light leading-[37px] first-letter:">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+          <p className="mt-6 font-light leading-[37px] font-lato first-letter:">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
          
         </div>
       </div>
@@ -79,11 +99,11 @@ export default class Testimonials extends Component {
         <a className="inline-flex items-center">
             <img alt="testimonial" src="assets/img/Avatar3.png" className="flex-shrink-0 object-cover object-center w-20 h-20 rounded-full" />
             <span className="flex flex-col flex-grow pl-4">
-              <span className="text-lg font-thin text-white uppercase title-font">Haris Shahid</span>
+              <span className="text-xl font-thin text-white uppercase cervino-med title-font">Haris Shahid</span>
               <span className="text-xs font-thin text-white">Art Director</span>
             </span>
           </a>
-          <h2 className="text-2xl " >It was a great expereince</h2>
+          <h2 className="text-xl lg:text-2xl font-lato " >It was a great expereince</h2>
           <ul className="flex gap-3 mt-3">
             <li><img src="assets/img/star.svg" alt="" /></li>
             <li><img src="assets/img/star.svg" alt="" /></li>
@@ -91,7 +111,7 @@ export default class Testimonials extends Component {
             <li><img src="assets/img/star.svg" alt="" /></li>
             <li><img src="assets/img/star.svg" alt="" /></li>
           </ul>
-          <p className="mt-6 font-light leading-[37px] first-letter:">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+          <p className="mt-6 font-light leading-[37px] font-lato first-letter:">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
          
         </div>
       </div>
@@ -102,11 +122,11 @@ export default class Testimonials extends Component {
         <a className="inline-flex items-center">
             <img alt="testimonial" src="assets/img/Avatar4.png" className="flex-shrink-0 object-cover object-center w-20 h-20 rounded-full" />
             <span className="flex flex-col flex-grow pl-4">
-              <span className="text-lg font-thin text-white uppercase title-font">Haris Shahid</span>
+              <span className="text-xl font-thin text-white uppercase cervino-med title-font">Haris Shahid</span>
               <span className="text-xs font-thin text-white">Art Director</span>
             </span>
           </a>
-          <h2 className="text-2xl " >It was a great expereince</h2>
+          <h2 className="text-xl lg:text-2xl font-lato " >It was a great expereince</h2>
           <ul className="flex gap-3 mt-3">
             <li><img src="assets/img/star.svg" alt="" /></li>
             <li><img src="assets/img/star.svg" alt="" /></li>
@@ -114,7 +134,7 @@ export default class Testimonials extends Component {
             <li><img src="assets/img/star.svg" alt="" /></li>
             <li><img src="assets/img/star.svg" alt="" /></li>
           </ul>
-          <p className="mt-6 font-light leading-[37px] first-letter:">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+          <p className="mt-6 font-light leading-[37px] font-lato first-letter:">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
          
         </div>
       </div>
@@ -125,11 +145,11 @@ export default class Testimonials extends Component {
         <a className="inline-flex items-center">
             <img alt="testimonial" src="assets/img/Avatar2.png" className="flex-shrink-0 object-cover object-center w-20 h-20 rounded-full" />
             <span className="flex flex-col flex-grow pl-4">
-              <span className="text-lg font-thin text-white uppercase title-font">Haris Shahid</span>
+              <span className="text-xl font-thin text-white uppercase cervino-med title-font">Haris Shahid</span>
               <span className="text-xs font-thin text-white">Art Director</span>
             </span>
           </a>
-          <h2 className="text-2xl " >It was a great expereince</h2>
+          <h2 className="text-xl lg:text-2xl font-lato " >It was a great expereince</h2>
           <ul className="flex gap-3 mt-3">
             <li><img src="assets/img/star.svg" alt="" /></li>
             <li><img src="assets/img/star.svg" alt="" /></li>
@@ -137,7 +157,7 @@ export default class Testimonials extends Component {
             <li><img src="assets/img/star.svg" alt="" /></li>
             <li><img src="assets/img/star.svg" alt="" /></li>
           </ul>
-          <p className="mt-6 font-light leading-[37px] first-letter:">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+          <p className="mt-6 font-light leading-[37px] font-lato first-letter:">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
          
         </div>
       </div>
@@ -148,11 +168,11 @@ export default class Testimonials extends Component {
         <a className="inline-flex items-center">
             <img alt="testimonial" src="assets/img/Avatar4.png" className="flex-shrink-0 object-cover object-center w-20 h-20 rounded-full" />
             <span className="flex flex-col flex-grow pl-4">
-              <span className="text-lg font-thin text-white uppercase title-font">Haris Shahid</span>
+              <span className="text-xl font-thin text-white uppercase cervino-med title-font">Haris Shahid</span>
               <span className="text-xs font-thin text-white">Art Director</span>
             </span>
           </a>
-          <h2 className="text-2xl " >It was a great expereince</h2>
+          <h2 className="text-xl lg:text-2xl font-lato" >It was a great expereince</h2>
           <ul className="flex gap-3 mt-3">
             <li><img src="assets/img/star.svg" alt="" /></li>
             <li><img src="assets/img/star.svg" alt="" /></li>
@@ -160,7 +180,7 @@ export default class Testimonials extends Component {
             <li><img src="assets/img/star.svg" alt="" /></li>
             <li><img src="assets/img/star.svg" alt="" /></li>
           </ul>
-          <p className="mt-6 font-light leading-[37px] first-letter:">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+          <p className="mt-6 font-light leading-[37px] font-lato">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
          
         </div>
       </div>
