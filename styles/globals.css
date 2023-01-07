@@ -30,9 +30,71 @@
 .cervino-med{
   font-family: cervino-med !important;
 }
+@font-face {
+  font-family: lato-black;
+  src: url("/Lato-Black.ttf");
+}
+.lato-black{
+  font-family: lato-black !important;
+}
+@font-face {
+  font-family: lato-bold;
+  src: url("/Lato-Bold.ttf");
+}
+.lato-bold{
+  font-family: lato-bold !important;
+}
+@font-face {
+  font-family: lato-light;
+  src: url("/Lato-Light.ttf");
+}
+.lato-light{
+  font-family: lato-light !important;
+}
+@font-face {
+  font-family: lato-regular;
+  src: url("/Lato-Regular.ttf");
+}
+.lato-regular{
+  font-family: lato-regular !important;
+}
+@font-face {
+  font-family: lato-thin;
+  src: url("/Lato-Thin.ttf");
+}
+.lato-thin{
+  font-family: lato-thin !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /************ Hero Section Css Start **********/
 .hero-sec {
   background-image: url(/Bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /************ Hero Section Css End **********/
 /************ Collaboration Section Css Start **********/
@@ -144,6 +206,29 @@ input[type="checkbox"] {
 }
 /******** Contact Section Css End  **********/
 
+/************** Media Querries Mobile  start *************/
+
+
+@media only screen and (max-width: 760px) {
+  .hero-sec {
+    background-image: url(/mbl-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .swiper-button-next {
+    right: -3% !important;
+  }
+  
+  :root {
+    --swiper-navigation-size: 250px !important;
+  }
+}
+
+
+
+
+
+/************** Media Querries Mobile  End *************/
 
 
 

@@ -12,7 +12,7 @@ const Cooperation = () => {
            Cooperation
           </h1>
           <div className="flex flex-wrap pl-0 -mx-4 -mt-4 -mb-10 lg:space-y-6 lg:pl-60 sm:-m-4 md:space-y-0">
-            <div className="flex items-center lg:p-4 md:w-1/2">
+            <div className="flex items-center px-6 md:px-0 md:p-4 md:w-1/2 ">
               <h2 className="text-[140px] cervino-light -mt-4 text-[#272216] font-bold">
                 1
               </h2>
@@ -20,25 +20,25 @@ const Cooperation = () => {
                 <h2 className="text-white text-lg title-font font-lato text-[19px] lg:text-[28px] font-medium lg:mb-5">
                 Contact & budget clarification
                 </h2>
-                <p className="text-sm font-light leading-tight lg:text-base lg:leading-loose font-lato">
+                <p className="text-sm font-light leading-tight lg:text-lg lg:leading-loose">
                 You contact us or we contact you and we discuss your needs <br className="hidden lg:block" /> and your budget so that everything runs as you imagine it.
                 </p>
               </div>
             </div>
-            <div className="flex items-center lg:p-4 md:w-1/2">
+            <div className="flex items-center px-6 md:px-0 md:p-4 md:w-1/2">
             <h2 className="text-[140px] cervino-light -mt-4 text-[#272216] font-bold">
                 2
               </h2>
               <div className="flex-grow pl-6">
-                <h2 className="text-white text-lg title-font font-lato text-[19px] lg:text-[28px] font-medium lg:mb-5">
+                <h2 className="text-white text-lg title-font font-lato text-[18px] lg:text-[28px] font-medium lg:mb-5">
                 Model selection & appointment
                 </h2>
-                <p className="text-sm font-light leading-tight lg:text-base lg:leading-loose font-lato">
+                <p className="text-sm font-light leading-tight lg:text-lg lg:leading-loose">
                 Based on your requirements, we create suggestions for <br className="hidden lg:block" /> suitable models and arrange an appointment with you
                 </p>
               </div>
             </div>
-            <div className="flex items-center lg:p-4 md:w-1/2">
+            <div className="flex items-center px-6 md:px-0 md:p-4 md:w-1/2">
             <h2 className="text-[140px] cervino-light -mt-4 text-[#272216] font-bold">
                 3
               </h2>
@@ -46,13 +46,13 @@ const Cooperation = () => {
                 <h2 className="text-white text-lg title-font font-lato text-[19px] lg:text-[28px] font-medium lg:mb-5">
                 Getting there & execution
                 </h2>
-                <p className="text-sm font-light leading-tight lg:text-base lg:leading-loose font-lato">
+                <p className="text-sm font-light leading-tight lg:text-lg lg:leading-loose">
                 We make sure that our models are there when <br className="hidden lg:block" />
 you need them
                 </p>
               </div>
             </div>
-            <div className="flex items-center lg:p-4 md:w-1/2">
+            <div className="flex items-center px-6 md:px-0 md:p-4 md:w-1/2">
             <h2 className="text-[140px] -mt-4 cervino-light text-[#272216] font-bold">
                 4
               </h2>
@@ -60,7 +60,7 @@ you need them
                 <h2 className="text-white title-font font-lato text-[19px] lg:text-[28px] font-medium lg:mb-5">
                 invoicing
                 </h2>
-                <p className="text-sm font-light leading-tight lg:text-base lg:leading-loose font-lato">
+                <p className="text-sm font-light leading-tight lg:text-lg lg:leading-loose">
                 After the booking you will receive an <br className="hidden lg:block" />
 invoice from us
                 </p>

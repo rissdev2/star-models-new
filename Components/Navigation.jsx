@@ -13,7 +13,7 @@ const Navigation = () => {
             <a className="mr-8 font-normal hover:text-white font-lato" href="#models">Models</a>
             <a className="mr-8 font-normal hover:text-white font-lato " href="#testimonials">Testimonials</a>
           </nav>
-          <button className="inline-flex font-normal font-lato items-center px-[50px] py-[15px] mt-4 text-base bg-transparent border rounded-none focus:outline-none hover:bg-transparent md:mt-0">
+          <button className="inline-flex font-normal font-lato items-center py-[10px] px-[35px] md:py-[15px] md:px-[50px] mt-4 text-base bg-transparent border rounded-none focus:outline-none hover:bg-transparent md:mt-0">
            <a href="#contct">Contact</a> 
           </button>
         </div>

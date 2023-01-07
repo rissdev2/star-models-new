@@ -24,7 +24,7 @@ const Models = () => {
           centeredSlides={true}
           autoHeight={true}
           slidesPerView={1}
-          spaceBetween={20}
+          spaceBetween={60}
           navigation={true}
           modules={[Navigation]}
           breakpoints={{
@@ -71,8 +71,8 @@ const Models = () => {
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
-                <button className="font-lato inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-base">
-                  More
+                <button className="font-lato inline-flex items-center text-white bg-tranparent border py-1 px-5 md:py-[5px] md:px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-base">
+                <a href="">More</a> 
                 </button>
               </div>
             </div>
@@ -99,8 +99,8 @@ const Models = () => {
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
-                <button className="font-lato inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-base">
-                  More
+                <button className="font-lato inline-flex items-center text-white bg-tranparent border py-1 px-5 md:py-[5px] md:px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-base">
+                <a href="">More</a> 
                 </button>
               </div>
             </div>
@@ -127,8 +127,8 @@ const Models = () => {
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
-                <button className="font-lato inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-base">
-                  More
+                <button className="font-lato inline-flex items-center text-white bg-tranparent border py-1 px-5 md:py-[5px] md:px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-base">
+                <a href="">More</a> 
                 </button>
               </div>
             </div>
@@ -155,8 +155,8 @@ const Models = () => {
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
-                <button className="font-lato inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-base">
-                  More
+                <button className="font-lato inline-flex items-center text-white bg-tranparent border py-1 px-5 md:py-[5px] md:px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-base">
+                <a href="">More</a> 
                 </button>
               </div>
             </div>
@@ -183,8 +183,8 @@ const Models = () => {
               </div>
               <div className="flex justify-end basis-1/2">
                 {" "}
-                <button className="font-lato inline-flex items-center text-white bg-tranparent border py-[5px] px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-base">
-                  More
+                <button className="font-lato inline-flex items-center text-white bg-tranparent border py-1 px-5 md:py-[5px] md:px-[35px] focus:outline-none hover:bg-transparent rounded-0 text-base">
+                 <a href="">More</a> 
                 </button>
               </div>
             </div>
