@@ -1,10 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 @font-face {
-  font-family: "cervino";
+  font-family: cervino-thin;
   src: url("/Cervino-ThinNeue.ttf");
+}
+.cervino-thin{
+  font-family: cervino-thin !important;
+}
+@font-face {
+  font-family: cervino-black;
+  src: url("/Cervino-BoldNeue.ttf");
+}
+.cervino-black{
+  font-family: cervino-black !important;
+}
+@font-face {
+  font-family: cervino-light;
+  src: url("/Cervino-BlackNeue.ttf");
+}
+.cervino-light{
+  font-family: cervino-light !important;
+}
+@font-face {
+  font-family: cervino-med;
+  src: url("/Cervino-MediumNeue.ttf");
+}
+.cervino-med{
+  font-family: cervino-med !important;
 }
 /************ Hero Section Css Start **********/
 .hero-sec {
@@ -119,3 +143,21 @@ input[type="checkbox"] {
   accent-color: #ac7c00;
 }
 /******** Contact Section Css End  **********/
+
+
+
+
+
+
+/************** Media Querries Tab  start *************/
+@media (min-device-width: 768px) and (max-device-width: 1080px) {
+  .swiper-button-next {
+    right: 3% !important;
+  }
+}
+
+
+
+
+
+/************** Media Querries Tab  End *************/
